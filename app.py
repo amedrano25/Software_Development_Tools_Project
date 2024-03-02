@@ -64,11 +64,11 @@ st.write(px.histogram(vehicle, x = 'manufacturer', color = 'model', nbins = 50, 
 #SCATTER PLOT FOR CAR AGE VS PRICE
 st.header('Car Age vs Price')
 st.write(px.scatter(vehicle, 
-                             x = 'age', 
-                             y = 'price', 
-                             color = 'manufacturer', 
-                             trendline =  "ols", 
-                             trendline_scope = 'overall'))
+                    x = 'age', 
+                    y = 'price', 
+                    color = 'manufacturer', 
+                    trendline =  "ols", 
+                    trendline_scope = 'overall'))
 #price_scat_plot = px.scatter(vehicle, x = 'age', y = 'price', color = 'manufacturer', trendline =  "ols", trendline_scope = 'overall')
 #price_scat_plot.show()
 
